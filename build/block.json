@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/contact-form",
+  "version": "0.1.0",
+  "title": "Contact Form",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "company_name": {
+      "type": "string"
+    },
+    "company_phone2": {
+      "type": "string"
+    },
+    "company_address": {
+      "type": "string"
+    },
+    "company_city": {
+      "type": "string"
+    },
+    "company_state": {
+      "type": "string"
+    },
+    "company_type": {
+      "type": "string"
+    },
+    "company_shift": {
+      "type": "string"
+    }
+  },
+  "textdomain": "contact-form",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
